@@ -42,7 +42,6 @@ A modern, responsive Rick & Morty character explorer built with **React**, **Red
 - ✅ Attractive card animations
 - ✅ Magical animated background (CSS-only)
 - ✅ Reusable UI components
-- ✅ Test cases for major components/pages
 - ✅ Clean folder structure and modular state management
 
 ---
@@ -55,8 +54,6 @@ A modern, responsive Rick & Morty character explorer built with **React**, **Red
 | Redux Toolkit    | State management & RTK Query     |
 | React Router     | Client-side routing              |
 | Vanilla CSS      | Custom responsive styling        |
-| Testing Library  | Unit tests                       |
-| JSDOM + Vitest   | Test environment & runner        |
 
 ---
 
@@ -83,7 +80,6 @@ Open: http://localhost:5173
   - `assets/` – Static assets like icons and images
   - `App.jsx` – Main App wrapper
   - `main.jsx` – App entry point
-  - `setupTests.js` – Test environment setup (jest-dom)
 
 ---
 
@@ -109,5 +105,9 @@ Open: http://localhost:5173
 > Developed with ❤️ by **Tabrez Mansuri**
 
 - 🐙 GitHub: [@tabrezMZ](https://github.com/TabrezMZ)
+
+
+
+https://github.com/user-attachments/assets/7db12ef0-9bcf-457a-954e-63453e0b19bc
 
 

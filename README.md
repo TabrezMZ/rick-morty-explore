@@ -108,11 +108,6 @@ Open: http://localhost:5173
 
 > Developed with ❤️ by **Tabrez Mansuri**
 
-- 🐙 GitHub: [@tabrez-m](https://github.com/TabrezMZ)
-
-
-
-
-https://github.com/user-attachments/assets/049072f6-45a0-4769-b1f4-183abcba28e0
+- 🐙 GitHub: [@tabrezMZ](https://github.com/TabrezMZ)
 
 

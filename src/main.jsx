@@ -8,6 +8,7 @@ import './styles/card.css';
 import './styles/layout.css'
 import './styles/navbar.css';
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <div className="stars" />

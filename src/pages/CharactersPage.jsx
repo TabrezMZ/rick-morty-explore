@@ -36,18 +36,6 @@ const CharactersPage = () => {
 
   const { data, isLoading, isError, error } = useGetCharactersQuery(filters);
 
-  const handlePrev = () => {
-    if (data?.info?.prev) {
-      setInputFilters((prev) => ({ ...prev, page: prev.page - 1 }));
-    }
-  };
-
-  const handleNext = () => {
-    if (data?.info?.next) {
-      setInputFilters((prev) => ({ ...prev, page: prev.page + 1 }));
-    }
-  };
-
   let results = data?.results || [];
 
   if (filters.location) {

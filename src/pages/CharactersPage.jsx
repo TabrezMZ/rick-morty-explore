@@ -36,7 +36,9 @@ const CharactersPage = () => {
 
   const { data, isLoading, isError, error } = useGetCharactersQuery(filters);
 
-  let results = data?.results || [];
+  let results = isError ? [] :  data?.results;
+  console.log("Filters applied:", filters);
+  console.log("Results fetched:", data?.results.length);
 
   if (filters.location) {
     // Filter characters by location name

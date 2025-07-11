@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+
+.container {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.8); /* or use var(--white) with transparency */
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+.stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent url('data:image/svg+xml;utf8,<svg width="3" height="3" xmlns="http://www.w3.org/2000/svg"><circle cx="1.5" cy="1.5" r="1.5" fill="white" /></svg>') repeat;
+  animation: starMove 60s linear infinite;
+  opacity: 0.2;
+  z-index: -1;
+  background: linear-gradient(270deg, #ff00c8, #00ffff, #00ff00, #ffff00, #ff0000, #ff00c8);
+  background-size: 1800% 1800%;
+  animation: rainbowFlow 20s linear infinite;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+
+
+@keyframes starMove {
+  from { background-position: 0 0; }
+  to { background-position: 10000px 5000px; }
+}
